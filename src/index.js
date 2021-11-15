@@ -6,6 +6,7 @@ import App from './App';
 import store from './redux/store';
 import './scss/app.scss';
 
+// todo delete
 store.dispatch({
 	type: 'SET_SORT_BY',
 	payload: 'price'
